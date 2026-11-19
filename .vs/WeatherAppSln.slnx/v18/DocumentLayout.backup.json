@@ -1,0 +1,147 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\learningnet\\WeatherAppSln\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{25552D9C-1FFB-4841-9587-5EE2666943B8}|WeatherApp\\WeatherApp.csproj|c:\\learningnet\\weatherappsln\\weatherapp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{25552D9C-1FFB-4841-9587-5EE2666943B8}|WeatherApp\\WeatherApp.csproj|solutionrelative:weatherapp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25552D9C-1FFB-4841-9587-5EE2666943B8}|WeatherApp\\WeatherApp.csproj|c:\\learningnet\\weatherappsln\\weatherapp\\services\\locationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25552D9C-1FFB-4841-9587-5EE2666943B8}|WeatherApp\\WeatherApp.csproj|solutionrelative:weatherapp\\services\\locationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25552D9C-1FFB-4841-9587-5EE2666943B8}|WeatherApp\\WeatherApp.csproj|c:\\learningnet\\weatherappsln\\weatherapp\\services\\weatherapihttpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25552D9C-1FFB-4841-9587-5EE2666943B8}|WeatherApp\\WeatherApp.csproj|solutionrelative:weatherapp\\services\\weatherapihttpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25552D9C-1FFB-4841-9587-5EE2666943B8}|WeatherApp\\WeatherApp.csproj|c:\\learningnet\\weatherappsln\\weatherapp\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25552D9C-1FFB-4841-9587-5EE2666943B8}|WeatherApp\\WeatherApp.csproj|solutionrelative:weatherapp\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25552D9C-1FFB-4841-9587-5EE2666943B8}|WeatherApp\\WeatherApp.csproj|c:\\learningnet\\weatherappsln\\weatherapp\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25552D9C-1FFB-4841-9587-5EE2666943B8}|WeatherApp\\WeatherApp.csproj|solutionrelative:weatherapp\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25552D9C-1FFB-4841-9587-5EE2666943B8}|WeatherApp\\WeatherApp.csproj|c:\\learningnet\\weatherappsln\\weatherapp\\services\\configurationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25552D9C-1FFB-4841-9587-5EE2666943B8}|WeatherApp\\WeatherApp.csproj|solutionrelative:weatherapp\\services\\configurationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25552D9C-1FFB-4841-9587-5EE2666943B8}|WeatherApp\\WeatherApp.csproj|c:\\learningnet\\weatherappsln\\weatherapp\\models\\weatherdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25552D9C-1FFB-4841-9587-5EE2666943B8}|WeatherApp\\WeatherApp.csproj|solutionrelative:weatherapp\\models\\weatherdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\learningnet\\WeatherAppSln\\WeatherApp\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "WeatherApp\\MainPage.xaml.cs",
+              "ToolTip": "C:\\learningnet\\WeatherAppSln\\WeatherApp\\MainPage.xaml.cs",
+              "RelativeToolTip": "WeatherApp\\MainPage.xaml.cs",
+              "ViewState": "AgIAAFIAAABg0czMzMwjwFcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-19T12:52:05.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\learningnet\\WeatherAppSln\\WeatherApp\\MainPage.xaml",
+              "RelativeDocumentMoniker": "WeatherApp\\MainPage.xaml",
+              "ToolTip": "C:\\learningnet\\WeatherAppSln\\WeatherApp\\MainPage.xaml",
+              "RelativeToolTip": "WeatherApp\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-11-19T12:51:27.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\learningnet\\WeatherAppSln\\WeatherApp\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "WeatherApp\\MauiProgram.cs",
+              "ToolTip": "C:\\learningnet\\WeatherAppSln\\WeatherApp\\MauiProgram.cs",
+              "RelativeToolTip": "WeatherApp\\MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-19T12:50:58.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WeatherData.cs",
+              "DocumentMoniker": "C:\\learningnet\\WeatherAppSln\\WeatherApp\\Models\\WeatherData.cs",
+              "RelativeDocumentMoniker": "WeatherApp\\Models\\WeatherData.cs",
+              "ToolTip": "C:\\learningnet\\WeatherAppSln\\WeatherApp\\Models\\WeatherData.cs",
+              "RelativeToolTip": "WeatherApp\\Models\\WeatherData.cs",
+              "ViewState": "AgIAAAEAAADAZWZmZmYgwDkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-19T12:49:27.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WeatherAPIHttpService.cs",
+              "DocumentMoniker": "C:\\learningnet\\WeatherAppSln\\WeatherApp\\Services\\WeatherAPIHttpService.cs",
+              "RelativeDocumentMoniker": "WeatherApp\\Services\\WeatherAPIHttpService.cs",
+              "ToolTip": "C:\\learningnet\\WeatherAppSln\\WeatherApp\\Services\\WeatherAPIHttpService.cs",
+              "RelativeToolTip": "WeatherApp\\Services\\WeatherAPIHttpService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-19T12:46:39.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LocationService.cs",
+              "DocumentMoniker": "C:\\learningnet\\WeatherAppSln\\WeatherApp\\Services\\LocationService.cs",
+              "RelativeDocumentMoniker": "WeatherApp\\Services\\LocationService.cs",
+              "ToolTip": "C:\\learningnet\\WeatherAppSln\\WeatherApp\\Services\\LocationService.cs",
+              "RelativeToolTip": "WeatherApp\\Services\\LocationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-19T12:45:50.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ConfigurationService.cs",
+              "DocumentMoniker": "C:\\learningnet\\WeatherAppSln\\WeatherApp\\Services\\ConfigurationService.cs",
+              "RelativeDocumentMoniker": "WeatherApp\\Services\\ConfigurationService.cs",
+              "ToolTip": "C:\\learningnet\\WeatherAppSln\\WeatherApp\\Services\\ConfigurationService.cs",
+              "RelativeToolTip": "WeatherApp\\Services\\ConfigurationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-19T12:45:14.648Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="WeatherApp.MainPage"
+    Title="Weather"
+    BackgroundColor="#0B1220">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="25,40" Spacing="25">
+
+            <VerticalStackLayout Spacing="5">
+
+                <Label
+                    FontSize="14"
+                    FontAttributes="Bold"
+                    TextColor="#38BDF8"
+                    HorizontalOptions="Center"/>
+
+                <Label
+                    Text="Today's Weather"
+                    FontSize="27"
+                    FontAttributes="Bold"
+                    TextColor="White"
+                    HorizontalOptions="Center"/>
+
+                <Label
+                    x:Name="DateLabel"
+                    Text="Loading date..."
+                    FontSize="14"
+                    TextColor="#94A3B8"
+                    HorizontalOptions="Center"/>
+
+            </VerticalStackLayout>
+
+            <VerticalStackLayout Spacing="5">
+
+                <Label
+                    Text="Current Location"
+                    FontSize="16"
+                    TextColor="#CBD5E1"
+                    HorizontalOptions="Center"/>
+
+                <Label
+                    x:Name="LocationLabel"
+                    Text="Waiting for location..."
+                    FontSize="20"
+                    FontAttributes="Bold"
+                    TextColor="White"
+                    HorizontalOptions="Center"/>
+
+            </VerticalStackLayout>
+
+            <Border
+                Background="#172554"
+                Stroke="#1E40AF"
+                StrokeThickness="1"
+                Padding="20"
+                StrokeShape="RoundRectangle 25">
+
+                <VerticalStackLayout
+                    Spacing="12"
+                    HorizontalOptions="Center">
+
+                    <Label
+                        x:Name="WeatherIconLabel"
+                        Text="☀️"
+                        FontSize="75"
+                        HorizontalOptions="Center"/>
+
+                    <Label
+                        x:Name="TemperatureLabel"
+                        Text="--°C"
+                        FontSize="65"
+                        FontAttributes="Bold"
+                        TextColor="White"
+                        HorizontalOptions="Center"/>
+
+                    <Label
+                        x:Name="DescriptionLabel"
+                        Text="Weather condition"
+                        FontSize="20"
+                        TextColor="#BFDBFE"
+                        HorizontalOptions="Center"/>
+
+                    <Label
+                        x:Name="FeelsLikeLabel"
+                        Text="Feels like: --°C"
+                        FontSize="16"
+                        TextColor="#CBD5E1"
+                        HorizontalOptions="Center"/>
+
+                </VerticalStackLayout>
+            </Border>
+
+            <Label
+                Text="Weather Details"
+                FontSize="21"
+                FontAttributes="Bold"
+                TextColor="White"/>
+
+            <Grid
+                ColumnDefinitions="*,*"
+                RowDefinitions="Auto,Auto"
+                ColumnSpacing="12"
+                RowSpacing="12">
+
+                <Border
+                    Grid.Row="0"
+                    Grid.Column="0"
+                    Background="#1E293B"
+                    Padding="15"
+                    StrokeShape="RoundRectangle 18">
+
+                    <VerticalStackLayout Spacing="8">
+                        <Label Text="💧" FontSize="28"/>
+                        <Label Text="Humidity" TextColor="#94A3B8"/>
+                        <Label
+                            x:Name="HumidityLabel"
+                            Text="--%"
+                            FontSize="22"
+                            FontAttributes="Bold"
+                            TextColor="White"/>
+                    </VerticalStackLayout>
+                </Border>
+
+                <Border
+                    Grid.Row="0"
+                    Grid.Column="1"
+                    Background="#1E293B"
+                    Padding="15"
+                    StrokeShape="RoundRectangle 18">
+
+                    <VerticalStackLayout Spacing="8">
+                        <Label Text="💨" FontSize="28"/>
+                        <Label Text="Wind Speed" TextColor="#94A3B8"/>
+                        <Label
+                            x:Name="WindLabel"
+                            Text="-- m/s"
+                            FontSize="22"
+                            FontAttributes="Bold"
+                            TextColor="White"/>
+                    </VerticalStackLayout>
+                </Border>
+
+                <Border
+                    Grid.Row="1"
+                    Grid.Column="0"
+                    Background="#1E293B"
+                    Padding="15"
+                    StrokeShape="RoundRectangle 18">
+
+                    <VerticalStackLayout Spacing="8">
+                        <Label Text="🌡" FontSize="28"/>
+                        <Label Text="Pressure" TextColor="#94A3B8"/>
+                        <Label
+                            x:Name="PressureLabel"
+                            Text="-- hPa"
+                            FontSize="22"
+                            FontAttributes="Bold"
+                            TextColor="White"/>
+                    </VerticalStackLayout>
+                </Border>
+
+                <Border
+                    Grid.Row="1"
+                    Grid.Column="1"
+                    Background="#1E293B"
+                    Padding="15"
+                    StrokeShape="RoundRectangle 18">
+
+                    <VerticalStackLayout Spacing="8">
+                        <Label Text="🌍" FontSize="28"/>
+                        <Label Text="Country" TextColor="#94A3B8"/>
+                        <Label
+                            x:Name="CountryLabel"
+                            Text="--"
+                            FontSize="22"
+                            FontAttributes="Bold"
+                            TextColor="White"/>
+                    </VerticalStackLayout>
+                </Border>
+
+            </Grid>
+
+            <Button
+                x:Name="RefreshButton"
+                Text="Refresh Weather"
+                Clicked="OnRefreshWeatherClicked"
+                FontSize="17"
+                FontAttributes="Bold"
+                TextColor="#0B1220"
+                BackgroundColor="#38BDF8"
+                CornerRadius="15"
+                HeightRequest="55"/>
+
+            <Label
+                Text="Weather information powered by OpenWeather"
+                FontSize="12"
+                TextColor="#64748B"
+                HorizontalOptions="Center"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
